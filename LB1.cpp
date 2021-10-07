@@ -51,7 +51,7 @@ int main(){
     if ((bit_string1[j]=='1') && (bit_string2[j] == '1')) bit_string3[j] ='1';
     else bit_string3[j]='0';
       }
-  cout<<"Result: ";
+  cout<<"Результат: ";
   for (int j = 0; j<8; j++)cout<<bit_string3[j];
   cout<<endl;
   return 0;

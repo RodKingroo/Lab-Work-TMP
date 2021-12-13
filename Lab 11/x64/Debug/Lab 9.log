@@ -1,0 +1,6 @@
+﻿  BitString.cpp
+  Source.cpp
+C:\Users\Kingroo\source\repos\Lab 11\Lab 9\Source.cpp(65,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Kingroo\source\repos\Lab 11\Lab 9\Source.cpp(120,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  Lab 9.vcxproj -> C:\Users\Kingroo\source\repos\Lab 11\x64\Debug\Lab 9.exe

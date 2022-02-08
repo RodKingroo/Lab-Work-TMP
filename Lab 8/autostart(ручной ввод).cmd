@@ -1,2 +1,0 @@
-py Source.py 
-pause

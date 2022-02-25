@@ -1,0 +1,6 @@
+﻿  BitString.cpp
+C:\Users\study\Desktop\Lab 6\Lab 6\BitString.cpp(67,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\study\Desktop\Lab 6\Lab 6\BitString.cpp(122,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Source.cpp
+  Создание кода...
+  Lab 6.vcxproj -> C:\Users\study\Desktop\Lab 6\x64\Debug\Lab 6.exe

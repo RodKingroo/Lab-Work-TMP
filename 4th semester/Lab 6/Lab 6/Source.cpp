@@ -4,34 +4,26 @@
 
 #include "BitString.h"
 
-int main() {
+int main(int argc, char* argv[]){
 	setlocale(LC_ALL, "rus");
+	BitString a, b, c;
 	try {
 		string choose_user;
-		cout << "Какой вариант ввода вам нужен? [console / file]: ";
-		getline(cin, choose_user);
+		if (argc < 4) {
 
-		if (choose_user == "console") {
-
-			BitString b_str1;
 			cout << "Введите первую строку: ";
-			cin >> b_str1;
+			cin >> a;
 			cout << "Введите вторую строку: ";
-			string temp;
-			getline(cin, temp);
-			BitString b_str2(temp);
-			BitString b_str_res = b_str1 & b_str2;
-			b_str_res.show_result();
-
+			cin >> b;
+			c = a & b;
+			cout << c << endl;
 		}
-		else if (choose_user == "file") {
+		else{
 
-			BitString b_file1, b_file2;
-			b_file1.FileInput("a.txt");
-			b_file2.FileInput("b.txt");
-			BitString b_file3 = b_file1 & b_file2;
-			b_file3.FileOutput();
-
+			a.FileInput((const char*)argv[1]);
+			b.FileInput((const char*)argv[2]);
+			c = a & b;
+			c.FileOutput((const char*)argv[3]);
 		}
 	}
 	catch (runtime_error& error) {

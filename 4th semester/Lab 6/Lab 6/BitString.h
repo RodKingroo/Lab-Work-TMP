@@ -1,4 +1,5 @@
 #pragma once
+
 #include <string>
 
 using namespace std;
@@ -8,25 +9,24 @@ class BitString {
 public:
 
 	BitString();
-	BitString(std::string str);
+	BitString(string str);
 	BitString(const BitString& b);
 	~BitString();
 
 	BitString& conjaction(const BitString& conj_bitstr) const;
 	BitString& operator=(const BitString& str);
 
-	void input_func();
-	void show_result();
-	void FileInput(std::string filename);
-	void FileOutput();
-
+	void InputFunc();
+	void ShowResult();
+	void FileInput(string filename);
+	void FileOutput(string filename);
 
 	unsigned char& operator[](int i);
 	unsigned char* getMas() { return bs; }
 
-	friend BitString& operator&(const BitString& str1, const BitString& str2);
-	friend ostream& operator<<(ostream& c_out, const BitString& i_str);
-	friend istream& operator>>(istream& c_in, BitString& o_str);
+	friend BitString& operator&(BitString& a, BitString& b);
+	friend ostream& operator<<(ostream& c_out, BitString& a);
+	friend istream& operator>>(istream& c_out, BitString& a);
 
 	int getLen() { return len; }
 

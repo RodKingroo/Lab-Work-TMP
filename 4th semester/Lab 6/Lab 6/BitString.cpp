@@ -1,10 +1,9 @@
 #include "BitString.h"
 
 #include <iostream>
-#include <string>
 #include <fstream>
-#include "BitString.h"
 
+using namespace std;
 
 BitString::BitString() {
 
@@ -13,7 +12,7 @@ BitString::BitString() {
 
 }
 
-BitString::BitString(std::string str) {
+BitString::BitString(string str) {
 
 	mas_from_string(str);
 
@@ -29,7 +28,7 @@ BitString::BitString(const BitString& b) {
 
 }
 
-void BitString::input_func() {
+void BitString::InputFunc() {
 	std::string str;
 	getline(std::cin, str);
 
@@ -38,13 +37,11 @@ void BitString::input_func() {
 	mas_from_string(str);
 }
 
-void BitString::show_result() {
+void BitString::ShowResult() {
 
-	std::cout << "Result: ";
+	for (int i = 0; i < len; i++) cout << bs[i];
 
-	for (int i = 0; i < len; i++) std::cout << bs[i];
-
-	std::cout << std::endl;
+	cout << endl;
 
 }
 
@@ -80,40 +77,29 @@ BitString& BitString::conjaction(const BitString& conj_bitstr) const {
 
 }
 
-void BitString::FileInput(std::string filename) {
+void BitString::FileInput(string filename) {
 
-	std::ifstream file(filename);
+	ifstream file(filename);
+	if (!file.is_open()) throw runtime_error("Can't open file: " + filename);
 
-	if (!file.is_open()) throw std::runtime_error("Can't open file: " + filename);
-
-	std::string str;
+	string str;
 	getline(file, str);
-
+	
 	if (bs) delete[] bs;
 
 	mas_from_string(str);
 	file.close();
-	std::cout << "The string was obtained from a file(";
-
-	for (int i = 0; i < len; i++) std::cout << bs[i];
-
-	std::cout << ")" << std::endl;
 
 }
 
-void BitString::FileOutput() {
+void BitString::FileOutput(string filename) {
+	ofstream file(filename);
 
-	std::ofstream write("output_file.txt");
+	if (!file.is_open())throw runtime_error("Can't open file");
 
-	if (!write.is_open())throw std::runtime_error("Can't open file");
+	for (int i = 0; i < len; i++) file << bs[i];
 
-	write << "Result of conjunction: ";
-
-	for (int i = 0; i < len; i++) write << bs[i];
-
-	write.close();
-	std::cout << "\nResult was written to a file: output_file.txt" << std::endl;
-
+	file.close();
 }
 
 void BitString::mas_from_string(std::string str) {
@@ -143,7 +129,6 @@ void BitString::mas_from_string(std::string str) {
 BitString::~BitString() {
 
 	delete[] bs;
-	len = 0;
 
 }
 

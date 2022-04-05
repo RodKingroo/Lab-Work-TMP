@@ -153,4 +153,5 @@
     8. Перегруженного оператора &: проверка правильности выполнения конъюнкции
 В качестве ответа приложите архив с проектом Visual Studio и отчет о всех найденных ошибках. 
 ```
-[Решение (не закончено)](https://github.com/RodKingroo/Lab-Work-TMP/tree/main/4th%20semester/Lab%206)
+![image](https://i.ibb.co/Q838mMq/image.png)\
+[Решение](https://github.com/RodKingroo/Lab-Work-TMP/tree/main/4th%20semester/Lab%206)

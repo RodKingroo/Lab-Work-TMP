@@ -1,7 +1,4 @@
 ﻿  BitString.cpp
-C:\Users\Администратор\Desktop\Lab 6\Lab 6\BitString.cpp(67,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Администратор\Desktop\Lab 6\Lab 6\BitString.cpp(122,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  Source.cpp
-  Создание кода...
-  LINK : не найден или не выполнена сборка C:\Users\Администратор\Desktop\Lab 6\x64\Debug\Lab 6.exe при последней инкрементной компоновке; выполняется полная компоновка
-  Lab 6.vcxproj -> C:\Users\Администратор\Desktop\Lab 6\x64\Debug\Lab 6.exe
+D:\Project\Lab-Work-TMP\4th semester\Lab 6\Lab 6\BitString.cpp(63,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Project\Lab-Work-TMP\4th semester\Lab 6\Lab 6\BitString.cpp(107,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Lab 6.vcxproj -> D:\Project\Lab-Work-TMP\4th semester\Lab 6\x64\Debug\Lab 6.exe

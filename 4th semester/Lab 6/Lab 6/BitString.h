@@ -6,14 +6,19 @@ using namespace std;
 
 class BitString {
 
+	unsigned char* mas;
+	int len;
+	void mas_from_string(string str);
+	BitString& conjaction_repeat(const BitString& b, int len);
+
 public:
 
 	BitString();
-	BitString(string str);
+	BitString(string init_str);
 	BitString(const BitString& b);
 	~BitString();
 
-	BitString& conjaction(const BitString& conj_bitstr) const;
+	BitString& conjaction(const BitString& conj_bitstr);
 	BitString& operator=(const BitString& str);
 
 	void InputFunc();
@@ -22,20 +27,12 @@ public:
 	void FileOutput(string filename);
 
 	unsigned char& operator[](int i);
-	unsigned char* getMas() { return bs; }
+	unsigned char* getMas() { return mas; }
 
 	friend BitString& operator&(BitString& a, BitString& b);
 	friend ostream& operator<<(ostream& c_out, BitString& a);
 	friend istream& operator>>(istream& c_out, BitString& a);
 
 	int getLen() { return len; }
-
-private:
-
-	unsigned char* bs;
-	int len;
-	void mas_from_string(string str);
-	BitString &conjaction_repeat(const BitString& conj_bitstr, int l) const;
-
 };
 

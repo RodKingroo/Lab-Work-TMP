@@ -7,7 +7,7 @@ using namespace std;
 
 BitString::BitString() {
 
-	bs = 0;
+	mas = 0;
 	len = 0;
 
 }
@@ -21,56 +21,55 @@ BitString::BitString(string str) {
 BitString::BitString(const BitString& b) {
 
 	len = b.len;
-	bs = new unsigned char[len + 1];
+	mas = new unsigned char[len];
 
-	for (int i = 0; i <= len; i++) bs[i] = b.bs[i];
-
+	for (int i = 0; i <= len; i++) mas[i] = b.mas[i];
 
 }
 
 void BitString::InputFunc() {
-	std::string str;
-	getline(std::cin, str);
+	string str;
+	getline(cin, str);
 
-	if (bs) delete[] bs;
+	if (mas) delete[] mas;
 
 	mas_from_string(str);
 }
 
 void BitString::ShowResult() {
 
-	for (int i = 0; i < len; i++) cout << bs[i];
+	for (int i = 0; i < len; i++) cout << mas[i];
 
 	cout << endl;
 
 }
 
-BitString& BitString::conjaction_repeat(const BitString& conj_bitstr, int l) const{
+BitString& BitString::conjaction_repeat(const BitString& conj_bitstr, int len){
 
-	int al = len;
-	int bl = conj_bitstr.len;
-	char* temp = new char[l + 1];
+	int al = this -> len - 1;
+	int bl = conj_bitstr.len - 1;
+	char* temp = new char[len + 1];
 
-	for (int i = 0; i < l; i++) {
-
-		if ((bs[al - 1 - i] == '1') && (conj_bitstr.bs[bl - 1 - i] == '1'))temp[l - 1 - i] = '1';
-		else temp[l - 1 - i] = '0';
-
+	for (int i = 0; i < len; i++) {
+		if ((al - i >= 0) && (bl - i >= 0)) {
+			if ((mas[al - i] == '1') && (conj_bitstr.mas[bl - i] == '1'))temp[len - 1 - i] = '1';
+			else temp[len - 1 - i] = '0';
+		}
 	}
 
-	temp[l] = '\0';
-	std::string str = std::string(temp);
+	temp[len] = '\0';
+	string str = string(temp);
 	delete[] temp;
 	int found = str.find("1");
 
-	if (found != std::string::npos) str = str.substr(found);
+	if (found != string::npos) str = str.substr(found);
 	else str = "0";
 
 	BitString* str_res = new BitString(str);
 	return *str_res;
 }
 
-BitString& BitString::conjaction(const BitString& conj_bitstr) const {
+BitString& BitString::conjaction(const BitString& conj_bitstr) {
 
 	if (len > conj_bitstr.len) return conjaction_repeat(conj_bitstr, conj_bitstr.len);
 	else return conjaction_repeat(conj_bitstr, len);
@@ -80,12 +79,12 @@ BitString& BitString::conjaction(const BitString& conj_bitstr) const {
 void BitString::FileInput(string filename) {
 
 	ifstream file(filename);
-	if (!file.is_open()) throw runtime_error("Can't open file: " + filename);
+	if (!file.is_open()) throw runtime_error("Can't open file");
 
 	string str;
 	getline(file, str);
 	
-	if (bs) delete[] bs;
+	if (mas) delete[] mas;
 
 	mas_from_string(str);
 	file.close();
@@ -97,83 +96,66 @@ void BitString::FileOutput(string filename) {
 
 	if (!file.is_open())throw runtime_error("Can't open file");
 
-	for (int i = 0; i < len; i++) file << bs[i];
+	for (int i = 0; i < len; i++) file << mas[i];
 
 	file.close();
 }
 
-void BitString::mas_from_string(std::string str) {
+void BitString::mas_from_string(string str) {
 
 	char temp;
 	len = str.length();
-	bs = new unsigned char[len + 1];
+	mas = new unsigned char[len];
 
-	for (int i = 0; i < len; i++) bs[i] = '0';
+	for (int i = 0; i < len; i++) mas[i] = '0';
 
 	int i = 0;
 	temp = str[i];
 
 	while (temp != '\0') {
 
-		if ((temp != '0') && (temp != '1')) throw std::runtime_error("Incorrect string");
+		if ((temp != '0') && (temp != '1')) throw runtime_error("Incorrect string");
 
-		bs[i] = (unsigned char)temp;
+		mas[i] = (unsigned char)temp;
 		temp = str[++i];
 
 	}
 
-	bs[len] = '\0';
-
 }
 
-BitString::~BitString() {
-
-	delete[] bs;
-
-}
+BitString::~BitString() { delete[] mas; }
 
 BitString& BitString::operator=(const BitString& str) {
 
-	if (&str == this) return *this;
-
-	if (bs) delete[] bs;
-
+	if (mas) delete[] mas;
 	len = str.len;
-	bs = new unsigned char[len];
-
-	for (int i = 0; i < len; i++) bs[i] = str.bs[i];
-
+	mas = new unsigned char[len];
+	for (int i = 0; i < len; i++) mas[i] = str.mas[i];
 	return *this;
 
 }
 
 unsigned char& BitString::operator[](int i) {
 
-	if ((i < 0) || (i > len)) throw std::runtime_error("Index out of range");
+	if ((i >= 0) && (i < len)) return mas[len-i-1];
+	else throw runtime_error("Index out of range");
 
-	return bs[i];
-
-}
-
-BitString& operator&(const BitString& str1, const BitString& str2) {
-
-	return str1.conjaction(str2);
 
 }
 
-std::ostream& operator<<(std::ostream& c_out, const BitString& i_str) {
+BitString& operator&(BitString& str1, BitString& str2) {return str1.conjaction(str2);}
 
-	for (int i = 0; i < i_str.len; i++) c_out << i_str.bs[i];
-
-	return c_out;
-
+ostream& operator<<(ostream& out, BitString& a) {
+	for (int j = 0; j < a.len; j++)
+		out << a.mas[j];
+	return out;
 }
 
-std::istream& operator>>(std::istream& c_in, BitString& o_str) {
+istream& operator>>(istream& c_in, BitString& o_str) {
 	std::string str;
 	getline(c_in, str);
 
-	if (o_str.bs) delete[] o_str.bs;
+	if (o_str.mas) delete[] o_str.mas;
 
 	o_str.mas_from_string(str);
 	return c_in;

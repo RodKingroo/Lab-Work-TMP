@@ -1,0 +1,5 @@
+﻿  UnitTest0.cpp
+D:\Project\Lab-Work-TMP\4th semester\Lab 6\Lab 6\BitString.cpp(63,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Project\Lab-Work-TMP\4th semester\Lab 6\Lab 6\BitString.cpp(107,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     Создается библиотека D:\Project\Lab-Work-TMP\4th semester\Lab 6\x64\Debug\UnitTest0.lib и объект D:\Project\Lab-Work-TMP\4th semester\Lab 6\x64\Debug\UnitTest0.exp
+  UnitTest0.vcxproj -> D:\Project\Lab-Work-TMP\4th semester\Lab 6\x64\Debug\UnitTest0.dll

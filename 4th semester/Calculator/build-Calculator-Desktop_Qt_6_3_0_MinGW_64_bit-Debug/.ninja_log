@@ -1,95 +1,27 @@
 # ninja log v5
-34	1058	6743809556136338	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-34	1058	6743809556136338	Calculator_autogen/timestamp	b12a2bc752406ffa
-34	1058	6743809556136338	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-34	1058	6743809556136338	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-8867	9884	6743809643492364	Calculator.exe	b6f42f7f31276b49
-5004	14044	6743765796423661	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	c126f7450223cd2a
-999	7759	6743788151051841	CMakeFiles/Calculator.dir/main.cpp.obj	2b985eeccecb9aa8
-1095	8866	6743809634246476	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-93	6619	6743820920628225	Calculator_autogen/timestamp	b12a2bc752406ffa
-93	6619	6743820920628225	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-93	6619	6743820920628225	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-93	6619	6743820920628225	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-6621	17999	6743821045583402	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	c126f7450223cd2a
-6635	18253	6743821048109053	CMakeFiles/Calculator.dir/main.cpp.obj	2b985eeccecb9aa8
-6648	18703	6743821052622104	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-18704	20033	6743821065767890	Calculator.exe	b6f42f7f31276b49
-93	2001	6743823853259353	Calculator_autogen/timestamp	b12a2bc752406ffa
-93	2001	6743823853259353	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-93	2001	6743823853259353	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-93	2001	6743823853259353	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2036	13221	6743823965582234	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-13222	14061	6743823973911832	Calculator.exe	b6f42f7f31276b49
-20	2855	6743825262846339	Calculator_autogen/timestamp	b12a2bc752406ffa
-20	2855	6743825262846339	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-20	2855	6743825262846339	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-20	2855	6743825262846339	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2901	12757	6743825362180923	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-12758	13607	6743825370570534	Calculator.exe	b6f42f7f31276b49
-46	3865	6743827902146394	Calculator_autogen/timestamp	b12a2bc752406ffa
-46	3865	6743827902146394	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-46	3865	6743827902146394	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-46	3865	6743827902146394	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-3881	16023	6743828031461234	CMakeFiles/Calculator.dir/main.cpp.obj	2b985eeccecb9aa8
-3866	16092	6743828032363653	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	c126f7450223cd2a
-3894	16581	6743828037260716	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-16582	17716	6743828048493045	Calculator.exe	b6f42f7f31276b49
-30	1758	6743829074624957	Calculator_autogen/timestamp	b12a2bc752406ffa
-30	1758	6743829074624957	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-30	1758	6743829074624957	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-30	1758	6743829074624957	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-1792	11342	6743829170573186	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-11344	12149	6743829178532186	Calculator.exe	b6f42f7f31276b49
-31	4073	6743834211213370	Calculator_autogen/timestamp	b12a2bc752406ffa
-31	4073	6743834211213370	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-31	4073	6743834211213370	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-31	4073	6743834211213370	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-4089	15193	6743834329037290	CMakeFiles/Calculator.dir/main.cpp.obj	2b985eeccecb9aa8
-4074	15493	6743834333317872	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	c126f7450223cd2a
-4104	16179	6743834340184860	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-16180	17483	6743834353089232	Calculator.exe	b6f42f7f31276b49
-85	2349	6743835305918029	Calculator_autogen/timestamp	b12a2bc752406ffa
-85	2349	6743835305918029	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-85	2349	6743835305918029	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-85	2349	6743835305918029	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2386	11938	6743835402475360	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-11944	12747	6743835410449100	Calculator.exe	b6f42f7f31276b49
-71	2072	6743836000745568	Calculator_autogen/timestamp	b12a2bc752406ffa
-71	2072	6743836000745568	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-71	2072	6743836000745568	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-71	2072	6743836000745568	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2114	11502	6743836095193383	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-11503	12313	6743836103179012	Calculator.exe	b6f42f7f31276b49
-107	2740	6743837361175620	Calculator_autogen/timestamp	b12a2bc752406ffa
-107	2740	6743837361175620	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-107	2740	6743837361175620	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-107	2740	6743837361175620	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2785	12536	6743837459213640	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-12537	13442	6743837468182054	Calculator.exe	b6f42f7f31276b49
-68	4345	6743905902671374	Calculator_autogen/timestamp	b12a2bc752406ffa
-68	4345	6743905902671374	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-68	4345	6743905902671374	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-68	4345	6743905902671374	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+52	1424	6744122472836007	Calculator_autogen/timestamp	b12a2bc752406ffa
+52	1424	6744122472836007	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
+52	1424	6744122472836007	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+52	1424	6744122472836007	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
 4346	20909	6743906075126549	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	c126f7450223cd2a
+11255	12632	6744122584836359	Calculator.exe	b6f42f7f31276b49
 4377	21216	6743906080032425	CMakeFiles/Calculator.dir/main.cpp.obj	2b985eeccecb9aa8
-4361	21694	6743906084820757	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-21695	23519	6743906102951448	Calculator.exe	b6f42f7f31276b49
-32	1689	6743908858607138	Calculator_autogen/timestamp	b12a2bc752406ffa
-32	1689	6743908858607138	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-32	1689	6743908858607138	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-32	1689	6743908858607138	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-1731	11451	6743908956407074	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-11452	12289	6743908964657222	Calculator.exe	b6f42f7f31276b49
-44	2731	6743909675922743	Calculator_autogen/timestamp	b12a2bc752406ffa
-44	2731	6743909675922743	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-44	2731	6743909675922743	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-44	2731	6743909675922743	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2776	13042	6743909779271055	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-13043	13952	6743909788276810	Calculator.exe	b6f42f7f31276b49
-43	2878	6743910910497659	Calculator_autogen/timestamp	b12a2bc752406ffa
-43	2878	6743910910497659	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-43	2878	6743910910497659	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
-43	2878	6743910910497659	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
-2917	13017	6743911012595065	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
-13018	13968	6743911021922307	Calculator.exe	b6f42f7f31276b49
+1462	11254	6744122571178157	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
+19	1410	6744126217088609	Calculator_autogen/timestamp	b12a2bc752406ffa
+19	1410	6744126217088609	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+19	1410	6744126217088609	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
+19	1410	6744126217088609	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+1443	9733	6744126300339866	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
+9734	10754	6744126310349424	Calculator.exe	b6f42f7f31276b49
+70	1362	6744127269799685	Calculator_autogen/timestamp	b12a2bc752406ffa
+70	1362	6744127269799685	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+70	1362	6744127269799685	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
+70	1362	6744127269799685	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+1399	9811	6744127354328848	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
+9812	11065	6744127366734604	Calculator.exe	b6f42f7f31276b49
+35	1300	6744127820422673	Calculator_autogen/timestamp	b12a2bc752406ffa
+35	1300	6744127820422673	Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+35	1300	6744127820422673	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	b12a2bc752406ffa
+35	1300	6744127820422673	D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	b12a2bc752406ffa
+1337	9551	6744127902947793	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	ec1cc9ce29595623
+9552	10719	6744127914499632	Calculator.exe	b6f42f7f31276b49

@@ -44,12 +44,15 @@ void MainWindow :: digit_numbers(){
     double all_numbers;
     QString new_label;
 
+
     all_numbers = (ui->result_show->text()+button->text()).toDouble();
     new_label = QString::number(all_numbers, 'g', 10);
 
-    ui -> result_show->setText(new_label);
-}
+    if(ui->result_show->text().contains(".") && button->text() == "0") new_label = ui->result_show->text()+button->text();
 
+    ui -> result_show->setText(new_label);
+
+}
 
 void MainWindow::on_pushButton_dot_clicked()
 {
@@ -81,6 +84,10 @@ void MainWindow :: operation(){
         new_label = QString::number(all_numbers, 'g', 10);
 
         ui -> result_show->setText(new_label);
+        ui -> pushButton_plus->setChecked(false);
+        ui -> pushButton_minus->setChecked(false);
+        ui -> pushButton_times->setChecked(false);
+        ui -> pushButton_demiter->setChecked(false);
     }
 }
 
@@ -88,7 +95,7 @@ void MainWindow :: math_operation(){
     QPushButton *button = (QPushButton *)sender();
 
     num_first = ui->result_show->text().toDouble();
-    ui->result_show->setText("");
+    ui->result_show->setText("0");
 
     button->setChecked(true);
 }

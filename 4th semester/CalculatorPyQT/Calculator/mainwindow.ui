@@ -56,7 +56,7 @@ QPushButton:pressed {
 background-color : white;</string>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>0</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_1">
@@ -483,6 +483,31 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>%</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_dot">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>125</y>
+     <width>50</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: rgb(215, 215, 215);
+  border: 1px solid gray;
+  font-size: 24px;
+}
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #BEBEBE, stop: 1 #D7D7D7);
+  font-size: 18px;
+}</string>
+   </property>
+   <property name="text">
+    <string>.</string>
    </property>
   </widget>
  </widget>

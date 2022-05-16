@@ -1,0 +1,5 @@
+D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/Calculator.dir
+D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/Calculator_autogen_timestamp_deps.dir
+D:/Project/Lab-Work-TMP/4th semester/Calculator/build-Calculator-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/Calculator_autogen.dir
